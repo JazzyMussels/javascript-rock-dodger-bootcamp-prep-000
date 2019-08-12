@@ -123,7 +123,6 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  document.addEventListener('keydown', function(e) {
   if ( e.which == LEFT_ARROW ) {
     e.preventDefault()
     e.stopPropagation()
@@ -134,7 +133,7 @@ function moveDodger(e) {
     e.stopPropagation()
     moveDodgerRight();
   }
-});
+}
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
