@@ -48,9 +48,11 @@ function checkCollision(rock) {
                * 3. The rock's left edge is < the DODGER's right edge,
                *    and the rock's right edge is > the DODGER's right edge
                */ 
+ {
+      return true
     }
-  }
-}
+  }	  }
+}	}
 
 function createRock(x) {
   const rock = document.createElement('div')
