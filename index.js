@@ -37,16 +37,16 @@ function checkCollision(rock) {
     const rockRightEdge = `${rockLeftEdge + 20}px`;
 
     if (rockLeftEdge < dodgerLeftEdge && rockRightEdge > dodgerRightEdge) {
-    return true
+    return false
     }
     else if (rockLeftEdge > dodgerLeftEdge && rockRightEdge < dodgerRightEdge) {
-      return true
+      return false
     }
     else if (rockLeftEdge < dodgerRightEdge && rockRightEdge > dodgerRightEdge) {
-      return true
+      return false
     }
     else {
-      return false
+      return true
     }
      /**
                * Think about it -- what's happening here?
