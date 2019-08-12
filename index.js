@@ -115,9 +115,9 @@ window.requestAnimationFrame(moveRock)
  */
 function endGame() {
   
-  ROCKS.forEach(e) {
+  ROCKS.forEach(function(e) {
     e.remove()
-  }
+  })
   document.removeEventListener(moveDodger)
   alert('YOU LOSE!')
 }
