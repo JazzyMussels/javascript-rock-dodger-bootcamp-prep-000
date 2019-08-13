@@ -144,7 +144,7 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  
+  window.
   
   // implement me!
   /**
