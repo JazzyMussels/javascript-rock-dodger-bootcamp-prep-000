@@ -90,7 +90,7 @@ function createRock(x) {
      * Otherwise, if the rock hasn't reached the bottom of
      * the GAME, we want to move it again.
      */
-    rock.style.top = `${top2+=2}px`
+  
     /**
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
