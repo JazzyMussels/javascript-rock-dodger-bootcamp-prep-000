@@ -145,7 +145,7 @@ function moveDodger(e) {
 
 function moveDodgerLeft() {
   window.requestAnimationFrame(function() {
-    const left = positionToInteger()
+    const left = positionToInteger(DODGER.style.left)
   })
   
   // implement me!
